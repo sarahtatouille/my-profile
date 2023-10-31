@@ -1,0 +1,87 @@
+/*colors and fonts*/
+
+body {
+	background-color : rgb(245,236,205);
+	color : rgb(131, 88, 11);
+	font-family: 'Merriweather', serif;
+	font-weight: lighter;
+	font-size: 14px;
+
+}
+h1, h2 {
+	font-family: Times New Roman;
+
+}
+h1{
+	color: goldenrod;
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 50px;
+}
+h2{
+	color: rgb(131, 88, 11);
+	font-weight: bolder;
+	font-size: 30px;
+}
+a {
+	text-decoration: none;
+	color: goldenrod;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #6B72E1;
+} 
+
+/*custom design with class*/
+
+.container{
+	width: 700px;
+	margin:40px auto;
+}
+
+.card-white{
+	background-color: whitesmoke;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 30px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-yellow {
+	background-color: goldenrod;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+
+.btn-yellow:hover {
+	background-color: rgb(131, 88, 11);
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	color: rgb(131, 88, 11);
+	font-size: 50px;
+}
+.list-inline i:hover {
+	color: goldenrod;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
